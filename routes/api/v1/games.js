@@ -15,4 +15,8 @@ router.get("/", function(req, res, next) {
     });
 });
 
+router.get("/:id", function(req, res, next) {
+  Game.find()
+}
+
 module.exports = router; //this should stay at the bottom of the file
